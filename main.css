@@ -48,3 +48,12 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.projectdiv {
+    float:left;
+    border:solid;
+    border-bottom-color: #333;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2%;
+}
