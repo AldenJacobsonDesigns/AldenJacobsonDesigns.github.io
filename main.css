@@ -71,5 +71,7 @@ ul.posts li {
 .logo{
     width:120px;
     height:90px;
-    float:right;
+}
+.logodiv{
+    float:left;
 }
