@@ -53,17 +53,15 @@ ul.posts li {
     float: left;
     border: solid;
     border-width: 2px;
-    border-bottom-color: #333;
+    border-color: #333;
     border-radius: 5px;
     padding: 1%;
     margin: 2%;
     position: relative;
-    width: 27%;
-    overflow: hidden;
+    width: 25%;
+
 }
 .img {
-    position: absolute;
-    padding: 10px;
     display: flex;
     align-items: center;
 }
