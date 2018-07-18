@@ -50,10 +50,22 @@ ul.posts li {
 }
 
 .projectdiv {
-    float:left;
-    border:solid;
+    float: left;
+    border: solid;
+    border-width: 2px;
     border-bottom-color: #333;
     border-radius: 5px;
-    padding: 5px;
+    padding: 1%;
     margin: 2%;
+    position: relative;
+    background: orange;
+    width: 27%;
+    padding-top: 20%;
+    overflow: hidden;
+}
+.img {
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
