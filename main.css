@@ -66,5 +66,9 @@ ul.posts li {
     height:300px;
 }
 .nav{
-    font-size:medium;
+    font-size:1.5em;
+}
+.logo{
+    width:40px;
+    height:30px;
 }
