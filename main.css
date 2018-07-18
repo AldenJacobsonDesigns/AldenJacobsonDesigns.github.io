@@ -70,8 +70,9 @@ ul.posts li {
     float:left;
 }
 .logo{
-    width:120px;
-    height:90px;
+    width:125px;
+    height:95px;
+    padding-right:3px;
 }
 .logodiv{
     float:left;
