@@ -630,8 +630,8 @@ a {
 
     .w3-mobile {
         float:left;
-        padding-left:2px;
-        padding-right:2px;
+        padding-left:0px;
+        padding-right:0px;
     }
     .w3-mobile-logo {
         width: 50px;
@@ -639,14 +639,14 @@ a {
         float: left;
         margin-right: 0px;
     }
-    /*.w3-bar-item.w3-mobile, .w3-dropdown-hover.w3-mobile, .w3-dropdown-click.w3-mobile {
+    .w3-bar-item.w3-mobile, .w3-dropdown-hover.w3-mobile, .w3-dropdown-click.w3-mobile {
         text-align: center;
         margin-right:20px;
     }
 
         .w3-dropdown-hover.w3-mobile, .w3-dropdown-hover.w3-mobile .w3-btn, .w3-dropdown-hover.w3-mobile .w3-button, .w3-dropdown-click.w3-mobile, .w3-dropdown-click.w3-mobile .w3-btn, .w3-dropdown-click.w3-mobile .w3-button {
             width: 100%
-        }*/
+        }
 }
 
 /*@media (max-width:768px) {
@@ -659,7 +659,7 @@ a {
     }
 }*/
 
-/*@media (min-width:993px) {
+@media (min-width:993px) {
     .w3-modal-content {
         width: 900px
     }
@@ -667,7 +667,9 @@ a {
     .w3-hide-large {
         display: none !important
     }
-
+    .w3-nav-large{
+        float:right;
+    }
     .w3-sidebar.w3-collapse {
         display: block !important
     }
@@ -688,7 +690,7 @@ a {
         margin-left: 0 !important;
         margin-right: 0 !important
     }
-}*/
+}
 
 .w3-top, .w3-bottom {
     position: fixed;
