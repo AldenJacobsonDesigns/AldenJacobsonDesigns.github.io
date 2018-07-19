@@ -626,8 +626,6 @@ a {
 
     .w3-hide-small {
         /*display: none !important*/
-        text-align: center;
-        margin:auto;
     }
 
     .w3-mobile {
@@ -636,7 +634,8 @@ a {
     }
 
     .w3-bar-item.w3-mobile, .w3-dropdown-hover.w3-mobile, .w3-dropdown-click.w3-mobile {
-        text-align: center
+        text-align: left;
+        float:left;
     }
 
         .w3-dropdown-hover.w3-mobile, .w3-dropdown-hover.w3-mobile .w3-btn, .w3-dropdown-hover.w3-mobile .w3-button, .w3-dropdown-click.w3-mobile, .w3-dropdown-click.w3-mobile .w3-btn, .w3-dropdown-click.w3-mobile .w3-button {
