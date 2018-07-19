@@ -76,6 +76,12 @@ ul.posts li {
 .logodiv{
     float:left;
 }
+.logotest{
+    width:15px;
+    height:10px;
+    float:left;
+    margin-right:4px;
+}
 /*start test html*/
 html, body {
     font-family: Verdana,sans-serif;
