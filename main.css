@@ -628,12 +628,18 @@ a {
         display: none !important;
     }
 
-    /*.w3-mobile {
-        display: block;
-        width: 100% !important
+    .w3-mobile {
+        float:left;
+        padding-left:2px;
+        padding-right:2px;
     }
-
-    .w3-bar-item.w3-mobile, .w3-dropdown-hover.w3-mobile, .w3-dropdown-click.w3-mobile {
+    .w3-mobile-logo {
+        width: 50px;
+        height: 35px;
+        float: left;
+        margin-right: 0px;
+    }
+    /*.w3-bar-item.w3-mobile, .w3-dropdown-hover.w3-mobile, .w3-dropdown-click.w3-mobile {
         text-align: center;
         margin-right:20px;
     }
