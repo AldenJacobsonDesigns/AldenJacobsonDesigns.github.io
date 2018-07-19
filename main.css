@@ -625,7 +625,9 @@ a {
     }
 
     .w3-hide-small {
-        display: none !important
+        /*display: none !important*/
+        text-align: center;
+        margin:auto;
     }
 
     .w3-mobile {
