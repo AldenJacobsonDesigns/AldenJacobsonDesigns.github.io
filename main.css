@@ -53,8 +53,7 @@ ul.posts li {
     float: left;
     border: solid;
     border-width: 2px;
-    /*border-color: #333;*/ 
-    border-color: #f92117;
+    border-color: #333; 
     border-radius: 5px;
     padding: 1%;
     padding-bottom: 0;
@@ -1202,7 +1201,7 @@ a {
 
 .w3-padding-32 {
     padding-bottom: 32px !important;
-    padding-top:40px;
+    padding-top:60px;
 }
 
 .w3-padding-48 {
