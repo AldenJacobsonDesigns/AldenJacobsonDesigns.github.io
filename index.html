@@ -1,59 +1,128 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Alden Jacobson Designs</title>
-		<link rel="stylesheet" type="text/css" href="/main.css">
-	</head>
-    <body>
-        <div class="logodiv">
-            <img alt="logo" src="https://i.imgur.com/xl6MNeQ.jpg" class="logo" />
-        </div>
-        <nav class="nav">
-            <div id="button"><a href="/home">Test</a></div>
-            <div id="button"><a href="/index">Home</a></div>
-            <div id="button2"><a href="/contact">Contact</a></div>
-            <div id="button3"><a href="/projects">Past Projects</a></div>
-        </nav>
-        <div class="container">
-            <div class="h1">
-                <h1>Alden Jacobson Engineering Design and Drafting</h1>
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/main.css">
+</head>
 
-            </div>
-            <div>
-                <h4>About us</h4>
-                <p>
-                    Alden Jacobson Engineering Design and Drafting Inc. (AJ D&amp;D) was
-                    founded in April of 2016 to provide design engineering drawings to clients
-                    throughout Ontario. This company is comprised of one licensed Professional Engineer with extensive
-                    experience in Civil, Structural, and Mechanical Engineering design.
-                    AJ D&amp;D provides the following services:
-                </p>
-                <ul>
-                    <li><p>Site inspections</p></li>
-                    <li><p>Stamped detailed drawings</p></li>
-                    <li><p>Stamped letters to attain construction permits</p></li>
-                </ul>
-                <p>For the following project types:</p>
-                <ul>
-                    <li><p>Residential projects</p></li>
-                    <li><p>Commercial projects</p></li>
-                    <li><p>Municipal projects</p></li>
-                </ul>
-                <h4>Certification</h4>
-                <p>
-                    Member of Professional Engineers Ontario (PEO).
-                </p>
-                <h4>Mission</h4>
-                <p>
-                    AJ D&amp;D is committed to providing efficient and reliable service to all clients,
-                    ensuring that all drawings follow up-to-date building codes.
-                </p>
+<body>
 
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <img alt="logo" src="https://i.imgur.com/xl6MNeQ.jpg" class="logotest" />
+            <a href="#home" class="w3-bar-item w3-button">Alden Jacobson Engineering Design and Drafting</a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+                <a href="#contact" class="w3-bar-item w3-button" style="margin-right:20px;">Contact</a>
             </div>
         </div>
-        <footer>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+        <div style="background-color:#f92117; width:1500px; height:500px; vertical-align: middle; max-width: 100%;"></div>
+        <!--<img class="w3-image" src="https://i.imgur.com/uKrWNX9.jpg" alt="Architecture" width="1500" height="800">-->
+        <div class="w3-display-middle w3-margin-top w3-center">
+            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>AJ</b></span> <span class="w3-hide-small w3-text-light-grey">Engineering Design and Drafting</span></h1>
+        </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32" id="about">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+            <p>
+                Alden Jacobson Engineering Design and Drafting Inc. (AJ D&amp;D) was
+                founded in April of 2016 to provide design engineering drawings to clients
+                throughout Ontario. This company is comprised of one licensed Professional Engineer with extensive
+                experience in Civil, Structural, and Mechanical Engineering design.
+                AJ D&amp;D provides the following services:
+            </p>
             <ul>
-                <li><a href="mailto:arjacob1-alden@yahoo.ca">email arjacob1-alden@yahoo.ca</a><p style="font-size: 1em; text-align:right">Kitchener, ON</p></li>
+                <li><p>Site inspections</p></li>
+                <li><p>Stamped detailed drawings</p></li>
+                <li><p>Stamped letters to attain construction permits</p></li>
             </ul>
-        </footer>
-    </body>
+            <p>For the following project types:</p>
+            <ul>
+                <li><p>Residential projects</p></li>
+                <li><p>Commercial projects</p></li>
+                <li><p>Municipal projects</p></li>
+            </ul>
+        </div>
+        <div class="w3-container w3-padding-16" id="cert">
+            <h4 class="w3-border-bottom w3-border-light-grey w3-padding-16">Certification</h4>
+            <p>
+                Member of Professional Engineers Ontario (PEO).
+            </p>
+        </div>
+        <div class="w3-container w3-padding-16" id="mission">
+            <h4 class="w3-border-bottom w3-border-light-grey w3-padding-16">Mission</h4>
+            <p>
+                AJ D&amp;D is committed to providing efficient and reliable service to all clients,
+                ensuring that all drawings follow up-to-date building codes.
+            </p>
+        </div>
+
+        <!-- Project Section -->
+        <div class="w3-container w3-padding-32" id="projects">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Past Projects</h3>
+        </div>
+        <div style="align-content:center;margin:auto;">
+            <div class="projectdiv">
+                <img alt="Beam on foundation wall" src="https://i.imgur.com/iOpvZur.jpg" class="img" />
+                <p>Beam on foundation wall</p>
+            </div>
+            <div class="projectdiv">
+                <img alt="Beam on wall" src="https://i.imgur.com/jnpQtad.jpg" class="img" />
+                <p>Beam on wall</p>
+            </div>
+            <div class="projectdiv">
+                <img alt="Column, Beam Connection" src="https://i.imgur.com/bVDbWe1.jpg" class="img" />
+                <p>Column, Beam Connection</p>
+            </div>
+            <div class="projectdiv">
+                <img alt="Footing, Column, Beam" src="https://i.imgur.com/55dvhoJ.jpg" class="img" />
+                <p>Footing, Column, Beam</p>
+            </div>
+            <div class="projectdiv">
+                <img alt="Footing" src="https://i.imgur.com/DUqL1vI.jpg" class="img" />
+                <p>Footing</p>
+            </div>
+            <div class="projectdiv">
+                <img alt="Single Column" src="https://i.imgur.com/t0UTd20.jpg" class="img" />
+                <p>Single Column</p>
+            </div>
+            <div class="projectdiv">
+                <img alt="Footing Inspection" src="https://i.imgur.com/Zkle0PO.jpg" class="img" />
+                <p>Footing Inspection</p>
+            </div>
+        </div>
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-32">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+            <p>To book a free consultation, call or email me at:</p>
+            <p>Email: arjacob1-alden@yahoo.ca<br />Phone: 519-498-6226</p>
+            <br />
+            <p style="padding:0;">101 Ramblewood Way<br />Kitchener, ON<br />N2N 1G8</p>
+
+        </div>
+        <div id="contact"></div>
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-padding-16" style="background-color:#f92117;">
+        <a href="mailto:arjacob1-alden@yahoo.ca" style="color:white; padding-top:6px;">email arjacob1-alden@yahoo.ca</a><p style="font-size: 1em; text-align:center; color:white;">Kitchener, ON</p>
+    </footer>
+
+
+</body>
 </html>
